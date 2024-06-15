@@ -15,5 +15,5 @@ def factorialNumber() :
         while num > 0 :
             factorial = factorial * num
             num = num - 1
-        print(f"Factorial of a number is {factorial}")
+        print(f"Factorial of a number is {factorial}.")
 factorialNumber()
