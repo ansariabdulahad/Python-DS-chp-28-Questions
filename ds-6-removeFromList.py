@@ -13,6 +13,6 @@ def removeFromList() :
         while i < len(nums) :
             num = nums[i]
             if num == userInput : nums.pop(i)
-            i = i + 1
+            else : i = i + 1
         print("After pop list is ", nums)
 removeFromList()
